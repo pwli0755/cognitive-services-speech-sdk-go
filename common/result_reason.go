@@ -49,22 +49,22 @@ const (
 	// SynthesizingAudioStarted indicates the speech synthesis is now started
 	SynthesizingAudioStarted ResultReason = 12
 
-	// EnrollingVoiceProfile indicates the voice profile is being enrolling and customers need to send more audio to create a voice profile.
+	// This result reason is deprecated and not used anymore.
 	EnrollingVoiceProfile ResultReason = 17
 
-	// EnrolledVoiceProfile indicates the voice profile has been enrolled.
+	// This result reason is deprecated and not used anymore.
 	EnrolledVoiceProfile ResultReason = 18
 
-	// RecognizedSpeakers indicates some speakers have been successfully identified.
+	// This result reason is deprecated and not used anymore.
 	RecognizedSpeakers ResultReason = 19
 
-	// RecognizedSpeaker indicates one speaker has been successfully verified.
+	// This result reason is deprecated and not used anymore.
 	RecognizedSpeaker ResultReason = 20
 
-	// ResetVoiceProfile indicates the voice profile has been reset successfully.
+	// This result reason is deprecated and not used anymore.
 	ResetVoiceProfile ResultReason = 21
 
-	// DeletedVoiceProfile indicates the voice profile has been deleted successfully.
+	// This result reason is deprecated and not used anymore.
 	DeletedVoiceProfile ResultReason = 22
 
 	// VoicesListRetrieved indicates the voices list has been retrieved successfully.
